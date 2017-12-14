@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		>
+	<h:head>
+		<title>Insert title here</title>
+	</h:head>
+	
+	<h:body>
+		<h:messages />
+		<h:form>
+			<h:panelGrid columns="2">
+				<h:outputLabel for="nom">Nom</h:outputLabel>
+				<h:inputText value="#{page5Bean.nom}" label="nom" id="nom"/>
+				<h:outputLabel value="prenom" />
+				<h:inputText value="#{page5Bean.prenom}" label="prenom"/>
+				<h:outputLabel value="age" />
+				<h:inputText value="#{page5Bean.age}" label="age"/>
+				<h:outputLabel value="email" />
+				<h:inputText value="#{page5Bean.email}" label="email"/>				
+				<br />
+				<h:commandButton action="#{page5Bean.nouveau}" value="Enregistre" />				
+			</h:panelGrid>
+		</h:form>
+	</h:body>
+
+</html>

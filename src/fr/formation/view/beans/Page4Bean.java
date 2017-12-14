@@ -35,6 +35,7 @@ public class Page4Bean implements Serializable{
 	
 	public String go() {
 		return "page4";
+//		return "page4?faces-redirect=true";
 	}
 	
 }
