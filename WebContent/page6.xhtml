@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		>
+	<h:head>
+		<title>Insert title here</title>
+	</h:head>
+	
+	<h:body>
+		<h:messages />
+		Nombre de visiteurs : <h:outputText value="#{page6Bean.nbVisiteurs}" />
+		<h:form>
+			<h:commandButton action="#{page6Bean.ajoute}" value="Nouveau" />
+		</h:form>		
+	</h:body>
+
+</html>
