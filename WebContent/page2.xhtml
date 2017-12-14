@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://java.sun.com/jsf/html"
+		>
+	<h:head>
+		<title>Insert title here</title>
+	</h:head>
+	
+	<h:body>
+		Bonjour 
+		Message suivant vient de JSF : <h:outputText value="Ciao" rendered="true"/> <br /><br />
+		La variable nom vaut <h:outputText value="#{page2Bean.nom}" /> <br /><br />
+		Informations de l'utilisateur : <br />
+		<ul>
+			<li>Id : <h:outputText value="#{page2Bean.user.id}" /></li>
+			<li>Prénom : <h:outputText value="#{page2Bean.user.prenom}" /></li>
+			<li>Nom : <h:outputText value="#{page2Bean.user.nom}" /></li>
+		</ul>
+	</h:body>
+
+</html>
